@@ -7,4 +7,5 @@ Python
 
 02_DataTypes
 >> 1) String
->> 
+>> 2) String Methods
+
