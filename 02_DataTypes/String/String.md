@@ -6,6 +6,8 @@
 >> name = "Vinay" 
     print(name[2])
 
+>> Negative indexing     *** will do later *** 
+
 4) slicing is a way to extract portion of a string by specifing start and end indexes. end is stoppping index excluded 
 >> name = "VinayNaik"
     print(name[2:4])        # it will print " na " 
@@ -40,6 +42,15 @@
     4) Predictability and Debugging: With immutability, you can be confident that a given object’s value will not change unexpectedly, leading to more predictable and easier-to-debug code.
 
     5) Performance Optimization: Immutable objects facilitate certain performance optimizations, such as caching hash values for quick dictionary lookups.
+
+
+>> ways to deal with string immutability 
+
+    1) String Slicing and Reassembling
+    2) String Concatenation
+    3) the join() method
+    4) Using String Formatting
+    5) Converting to Mutable Data Structures
 
 
 >> we can convert immutable data type into mutable also one such example 
