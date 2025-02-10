@@ -120,4 +120,26 @@ while i < len(a):
 # for loop 
 
 
+# for loop with string
+
+Note:
+*** in for loop we directly get access of the element meanwhile in while loop we get index ***
+
+s = " VInay " 
+for i in s: 
+    print(i)
+
+
+# using range with for loop 
+
+range syntax 
+range( start ,stop, step)
+step is optional 
+
+
+for i in range(0,10,2):
+    print(i)
+
+
+
 
