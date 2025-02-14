@@ -161,3 +161,11 @@ s = " python is fun "
 result = " ".join(s)  # seprate is blank space between the substring
 
 
+
+22) split()
+
+it will split the string into multiple string breaking the given string by the specified separator 
+
+a = " Vinay is a good boy "
+words = a.split()
+

@@ -13,3 +13,17 @@ for i in a:
 print(count)
 
 
+# using inbuilt string funtion 
+
+a ="Vinay"
+answer = a.count("") - 1
+print(answer)
+
+
+# using while loop 
+
+a="vinay"
+count = 0
+while count < len(a):
+    count +=1
+print( count )
