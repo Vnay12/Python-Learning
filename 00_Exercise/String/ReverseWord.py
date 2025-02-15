@@ -30,4 +30,24 @@ result = " ".join(reverse_words_list)
 
 # using recursion
 
+#using two pointer
+
+a = "vinay is a good boy"
+splitstring = a.split()
+n = len(splitstring)
+left, right = 0, n - 1
+
+
+while left < right:
+    temp = splitstring[right]
+    splitstring[right] = splitstring[left] 
+    splitstring[left] = temp 
+    right -= 1 
+    left += 1
+print(splitstring)
+
+answer = " ".join(splitstring)
+print(answer)
+
+
 
